@@ -1,4 +1,6 @@
 # terraform-aws-vpc-inudzuka
+
+```hcl
 module "vpc" {
     source = "inudzuka-mitsu/vpcinudzuka/aws"
     region = "us-east-2"
@@ -7,3 +9,4 @@ module "vpc" {
     s2_cidr = "10.0.2.0/24"
     s3_cidr = "10.0.3.0/24"
 }
+```
